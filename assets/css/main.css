@@ -76,3 +76,74 @@
 .header__nav-item--has-qr:hover .header__qr {
     display: block;
 }
+/* ===== Hover Notifications==== */
+.header__hover-notify {
+    position: absolute;
+    top: 150%;
+    width: 404px;
+    background-color: var(--white-color);
+    right: 0;
+    border: 1px solid rgb(159, 158, 158);
+}
+
+.header__hover-notify-header {
+    height: 40px;
+    background-color: var(--white-color);
+}
+.header__hover-notify-header > h3 {
+    margin: 0 0 0 12px;
+    font-size: 1.4rem;
+    color: rgb(138, 138, 138);
+    font-weight: 100;
+    line-height: 40px;
+}
+.header__hover-notify-list {
+    padding-left: 0px;
+}
+
+.header__hover-notify-item {
+    
+}
+.header__hover-notify-item:hover {
+    background-color: rgb(241, 241, 241);
+}
+.header__hover-notify-item--not-read {
+    background-color: rgba(238, 78, 46, 0.1);
+}
+.header__hover-notify-link {
+    display: flex;
+    text-decoration: none;  
+    padding: 12px;
+    width: 100%;
+}
+
+.header__hover-notify-img {
+    width: 48px;
+    object-fit: contain;
+}
+
+.header__hover-notify-info {
+    margin-left: 12px;
+    
+}
+
+.notify-info-name {
+    display: block;
+    color: var(--black-color);
+    font-size: 1.4rem;
+}
+
+.notify-info-description {
+    font-size: 1.2rem;
+    color: rgb(138, 138, 138);
+}
+.header__notify-seeAll {
+    text-align: center;
+    
+}
+.header__notify-seeAll-btn {
+    text-decoration: none;
+    color: var(--black-color);
+    padding: 12px;
+    display: block;
+}
